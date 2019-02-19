@@ -1,0 +1,50 @@
+{
+    "data":{
+        "id": 2,
+        "type": "car",
+        "attributes": {
+            "color": "red"
+        },
+        "relationships": {
+            "driver": {
+                "data": {
+                    "id": 3, 
+                    "type": "person"
+                }
+            }
+        }
+    },
+    "included": [
+        {
+            "id": 3,
+            "type": "person",
+            "attributes": {
+                "name": "Kowalski"
+            },
+            "relationships": {
+                "married-to": {
+                    "data": {
+                        "id": 4, 
+                        "type": "person"
+                    }
+                }
+            }
+        },
+        {
+            "id": 4,
+            "type": "person",
+            "attributes": {
+                "name": "Kowalska"
+            },
+            "relationships": {
+                "married-to": {
+                    "data": {
+                        "id": 3, 
+                        "type": "person"
+                    }
+                }
+            }
+        }
+    ]
+}
+
