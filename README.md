@@ -16,7 +16,7 @@ This project tests the basic functionalities of [jsonapi_requests](https://githu
    
 1. run the flask server
 
-    `export FLASK_ENV=flask_app.py`
+    `export FLASK_APP=flask_app.py`
     `flask run`
     
 1. in a separate terminal session, generate the jsonapi-requests request
