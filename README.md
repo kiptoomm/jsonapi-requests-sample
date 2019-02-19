@@ -1,6 +1,3 @@
-# jsonapi-requests-sample
-basic project to demo use of jsonapi-requests
-
 This project tests the basic functionalities of [jsonapi_requests](https://github.com/socialwifi/jsonapi-requests)
 
 ### pre-requisites:
